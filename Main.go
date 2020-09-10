@@ -64,6 +64,8 @@ func main() {
 					} else {
 						txHash := txHashRegex.FindString(response)
 						fmt.Println(response)
+						//you could add some shell call here to notify you that the tx has been submitted
+						//I have an application that allows me to use push messaging to send messages directly to my mobile device
 						//exec.Command("/bin/sh", "-c", "curl --include --request POST --header  https://some notification address")
 						submitted[signedTx] = true
 					}
