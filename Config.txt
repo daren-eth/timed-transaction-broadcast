@@ -1,0 +1,12 @@
+{
+   "eth_node_url":"https://mainnet.infura.io/v3/{YOUR_API_KEY_HEAR}",
+   "gas_station_url":"https://ethgasstation.info/api/ethgasAPI.json?api-key={YOUR_API_KEY_HEAR}",
+   "gas_priced_transactions":[
+      {
+         "gas_price":50,
+         "signed_txs":[
+            "0xf86941850ba43b7400830ee09494c021a73ee8576fb46f5e1c5751ca3b9fe0af2a6f8084af086c7e26a06f7e703babe3d33ec936bb562344444444444444444fd3db36f9769d3b67062a027c3a1cc0387f151d7f56c2db22929a286bd445c80023e953dae78221360bd94 - the signed transaction hex for a transaction you want to submit when gas price is below the above price"
+         ]
+      }
+   ]
+}
